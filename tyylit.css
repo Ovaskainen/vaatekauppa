@@ -1,0 +1,35 @@
+/*
+file: tyylit.css
+desc: tyylimäärittelyt vaatekauppa sivustolle
+date: 24.3.2018
+auth: Klaus Ovaskainen
+HUOM! --> myös inline tyylejä
+/*
+
+/*** GENERAL **********************************************
+**********************************************************/
+body,h1,h2,h3,h4,h5,h6,.w3-wide {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*** SIDEBAR **********************************************
+**********************************************************/
+.w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    margin-top: 84px;
+}
+
+.w3-sidebar a {
+    font-family: "Roboto", sans-serif;
+}
+
+/*** FOOTER **********************************************
+**********************************************************/
+.pankit img {
+    margin: 3px;
+}
+
+.sosiaalinen-media-linkit i{
+    margin: 0 5px 0 5px;
+}
